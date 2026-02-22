@@ -1,6 +1,24 @@
 import { ProjectCard } from './ProjectCard';
 import { useState } from 'react';
 
+import R2 from '../../assets/R2.png';
+import E1 from '../../assets/E1.PNG';
+import P1 from '../../assets/P1.PNG';
+import B1 from '../../assets/B1.PNG';
+
+import BlackH1 from '../../assets/BlackH1.png';
+import HelmetN from '../../assets/HelmetN.png';
+import SpiderB from '../../assets/SpiderB.png';
+
+import cyber from '../../assets/CyberSecurityStatsFinal.jpg';
+import breach from '../../assets/DataBreach.jpg';
+import cultural from '../../assets/FTSCulturalFinal.png';
+import recruitment from '../../assets/RecruitmentPoster.jpg';
+
+import colourBoard from '../../assets/ColourBoard.jpg';
+import vivant from '../../assets/Vivant.png';
+import lb from '../../assets/LB.jpg';
+
 export function Work() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const jewelryProjects = [
@@ -8,25 +26,25 @@ export function Work() {
       title: 'Elegant Ring Design',
       description: 'Premium gold ring with intricate geometric patterns and precision-cut diamond setting.',
       tools: ['Fusion 360', '3D Modeling', 'Rendering'],
-      imageSrc: '/src/assets/R2.png',
+      imageSrc: R2,
     },
     {
       title: 'Modern Earrings',
       description: 'Contemporary earring design featuring minimalist aesthetics and refined metalwork.',
       tools: ['Fusion 360', 'Product Design'],
-      imageSrc: '/src/assets/E1.PNG',
+      imageSrc: E1,
     },
     {
       title: 'Pendant',
       description: 'Bold pendant design combining traditional craftsmanship with modern design principles.',
       tools: ['Fusion 360', 'Jewelry Design'],
-      imageSrc: '/src/assets/P1.PNG',
+      imageSrc: P1,
     },
     {
       title: 'Designer Bracelet',
       description: 'Sophisticated bracelet showcasing precision engineering and elegant form.',
       tools: ['Fusion 360', 'CAD'],
-      imageSrc: '/src/assets/B1.PNG',
+      imageSrc: B1,
     },
   ];
 
@@ -35,19 +53,19 @@ export function Work() {
       title: 'Black Hole',
       description: 'A model with realistic materials and lighting for a black hole.',
       tools: ['Blender', '3D Modeling', 'Rendering'],
-      imageSrc: '/src/assets/BlackH1.png',
+      imageSrc: BlackH1,
     },
     {
       title: 'Helmet Design',
       description: 'Advanced helmet which have installed infrared camera.',
       tools: ['Blender', 'Product Visualization'],
-      imageSrc: '/src/assets/HelmetN.png',
+      imageSrc: HelmetN,
     },
     {
       title: 'Spider Bot',
       description: 'Futuristic robotic spider design with intricate mechanical details.',
       tools: ['Blender', 'Character Design'],
-      imageSrc: '/src/assets/SpiderB.png',
+      imageSrc: SpiderB,
     },
   ];
 
@@ -56,25 +74,25 @@ export function Work() {
       title: 'Cybersecurity Stats',
       description: 'Series of posters promoting digital security best practices with bold typography.',
       tools: ['Illustrator', 'Typography', 'Layout'],
-      imageSrc: '/src/assets/Cyber Security Stats Final.jpg',
+      imageSrc: cyber,
     },
     {
       title: 'Data Breach Prevention',
       description: 'Informative poster design communicating critical security protocols.',
       tools: ['Illustrator', 'Infographics'],
-      imageSrc: '/src/assets/Data Breach.jpg',
+      imageSrc: breach,
     },
     {
       title: 'FTS Cultural Event',
       description: 'Dynamic event promotion featuring modern gradients and clean layout.',
       tools: ['Illustrator', 'Poster Design'],
-      imageSrc: '/src/assets/FTS Cultural Final.png',
+      imageSrc: cultural,
     },
     {
       title: 'Recruitment Poster',
       description: 'Educational poster series for professional development workshops.',
       tools: ['Illustrator', 'Visual Design'],
-      imageSrc: '/src/assets/Recruitment Poster F1@2x-100.jpg',
+      imageSrc: recruitment,
     },
   ];
 
@@ -83,19 +101,19 @@ export function Work() {
       title: 'Brand Color Board',
       description: 'Comprehensive color palette development for cohesive brand identity.',
       tools: ['Illustrator', 'Color Theory'],
-      imageSrc: '/src/assets/Colour board.jpg',
+      imageSrc: colourBoard,
     },
     {
       title: 'Vivant Branding',
       description: 'Visual direction board establishing brand aesthetics and style guidelines.',
       tools: ['Figma', 'Branding'],
-      imageSrc: '/src/assets/Vivant.png',
+      imageSrc: vivant,
     },
     {
       title: 'Look Board Design',
       description: 'Iterative logo design process exploring various concepts and directions.',
       tools: ['Illustrator', 'Logo Design'],
-      imageSrc: '/src/assets/LB.jpg',
+      imageSrc: lb,
     },
   ];
 

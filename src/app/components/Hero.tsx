@@ -1,5 +1,6 @@
 import { ArrowRight } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
+import whiteLogo from '../../assets/WhiteM.png';
 
 export function Hero() {
   const scrollToWork = () => {
@@ -45,7 +46,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/20 to-transparent rounded-2xl blur-3xl"></div>
           <div className="relative aspect-square rounded-2xl overflow-hidden border border-[#D4AF37]/20 bg-gradient-to-br from-gray-900 to-black flex items-center justify-center p-12">
             <img
-              src="/src/assets/WhiteM.png"
+              src={whiteLogo}
               alt="Mohamad Mortuz Logo"
               className="w-full h-full object-contain"
             />

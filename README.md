@@ -63,14 +63,6 @@ Design Portfolio/
 └── public/                 # Static assets
 ```
 
-## Contact
-
-- **Email**: md.mortuz001@gmail.com
-- **LinkedIn**: [mohamad-mortuz](https://www.linkedin.com/in/mohamad-mortuz/)
-- **Instagram**: [@mortuz7986](https://www.instagram.com/mortuz7986/)
-- **GitHub**: [MohamadxMortuz](https://github.com/MohamadxMortuz)
-- **Phone**: +91 7986338945
-
 ## License
 
 © 2024 Mohamad Mortuz. All rights reserved.

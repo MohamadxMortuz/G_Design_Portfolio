@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import whiteLogo from '../../assets/WhiteM.png';
 
 export function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -42,7 +43,7 @@ export function Navigation() {
             onClick={() => scrollToSection('#')}
             className="flex items-center"
           >
-            <img src="/src/assets/WhiteM.png" alt="MM Logo" className="h-10 w-auto" />
+            <img src={whiteLogo} alt="MM Logo" className="h-10 w-auto" />
           </button>
 
           {/* Desktop Navigation */}

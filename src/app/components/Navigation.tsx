@@ -42,7 +42,7 @@ export function Navigation() {
             onClick={() => scrollToSection('#')}
             className="flex items-center"
           >
-            <img src="/Graphic Designs/WhiteM.png" alt="MM Logo" className="h-10 w-auto" />
+            <img src="/src/assets/WhiteM.png" alt="MM Logo" className="h-10 w-auto" />
           </button>
 
           {/* Desktop Navigation */}

@@ -8,25 +8,46 @@ export function Work() {
       title: 'Elegant Ring Design',
       description: 'Premium gold ring with intricate geometric patterns and precision-cut diamond setting.',
       tools: ['Fusion 360', '3D Modeling', 'Rendering'],
-      imageSrc: '/Graphic Designs/AutoDesk fusion 360/R2.PNG',
+      imageSrc: '/src/assets/R2.png',
     },
     {
       title: 'Modern Earrings',
       description: 'Contemporary earring design featuring minimalist aesthetics and refined metalwork.',
       tools: ['Fusion 360', 'Product Design'],
-      imageSrc: '/Graphic Designs/AutoDesk fusion 360/E1.PNG',
+      imageSrc: '/src/assets/E1.PNG',
     },
     {
       title: 'Pendant',
       description: 'Bold pendant design combining traditional craftsmanship with modern design principles.',
       tools: ['Fusion 360', 'Jewelry Design'],
-      imageSrc: '/Graphic Designs/AutoDesk fusion 360/P1.PNG',
+      imageSrc: '/src/assets/P1.PNG',
     },
     {
       title: 'Designer Bracelet',
       description: 'Sophisticated bracelet showcasing precision engineering and elegant form.',
       tools: ['Fusion 360', 'CAD'],
-      imageSrc: '/Graphic Designs/AutoDesk fusion 360/B1.PNG',
+      imageSrc: '/src/assets/B1.PNG',
+    },
+  ];
+
+  const blenderProjects = [
+    {
+      title: 'Black Hole',
+      description: 'A model with realistic materials and lighting for a black hole.',
+      tools: ['Blender', '3D Modeling', 'Rendering'],
+      imageSrc: '/src/assets/BlackH1.png',
+    },
+    {
+      title: 'Helmet Design',
+      description: 'Advanced helmet which have installed infrared camera.',
+      tools: ['Blender', 'Product Visualization'],
+      imageSrc: '/src/assets/HelmetN.png',
+    },
+    {
+      title: 'Spider Bot',
+      description: 'Futuristic robotic spider design with intricate mechanical details.',
+      tools: ['Blender', 'Character Design'],
+      imageSrc: '/src/assets/SpiderB.png',
     },
   ];
 
@@ -35,25 +56,25 @@ export function Work() {
       title: 'Cybersecurity Stats',
       description: 'Series of posters promoting digital security best practices with bold typography.',
       tools: ['Illustrator', 'Typography', 'Layout'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/Cyber Security Stats Final.jpg',
+      imageSrc: '/src/assets/Cyber Security Stats Final.jpg',
     },
     {
       title: 'Data Breach Prevention',
       description: 'Informative poster design communicating critical security protocols.',
       tools: ['Illustrator', 'Infographics'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/Data Breach.jpg',
+      imageSrc: '/src/assets/Data Breach.jpg',
     },
     {
       title: 'FTS Cultural Event',
       description: 'Dynamic event promotion featuring modern gradients and clean layout.',
       tools: ['Illustrator', 'Poster Design'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/FTS Cultural Final.png',
+      imageSrc: '/src/assets/FTS Cultural Final.png',
     },
     {
       title: 'Recruitment Poster',
       description: 'Educational poster series for professional development workshops.',
       tools: ['Illustrator', 'Visual Design'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/Recruitment Poster F1@2x-100.jpg',
+      imageSrc: '/src/assets/Recruitment Poster F1@2x-100.jpg',
     },
   ];
 
@@ -62,40 +83,19 @@ export function Work() {
       title: 'Brand Color Board',
       description: 'Comprehensive color palette development for cohesive brand identity.',
       tools: ['Illustrator', 'Color Theory'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/Colour board.jpg',
+      imageSrc: '/src/assets/Colour board.jpg',
     },
     {
       title: 'Vivant Branding',
       description: 'Visual direction board establishing brand aesthetics and style guidelines.',
       tools: ['Figma', 'Branding'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/Vivant.png',
+      imageSrc: '/src/assets/Vivant.png',
     },
     {
       title: 'Look Board Design',
       description: 'Iterative logo design process exploring various concepts and directions.',
       tools: ['Illustrator', 'Logo Design'],
-      imageSrc: '/Graphic Designs/Photoshop & Illustrator Designs/LB.jpg',
-    },
-  ];
-
-   const blenderProjects = [
-    {
-      title: 'Black Hole',
-      description: 'A model with realistic materials and lighting for a black hole.',
-      tools: ['Blender', '3D Modeling', 'Rendering'],
-      imageSrc: '/Graphic Designs/Blender/BlackH1.png',
-    },
-    {
-      title: 'Helmet Design',
-      description: 'Advanced helmet which have installed infrared camera.',
-      tools: ['Blender', 'Product Visualization'],
-      imageSrc: '/Graphic Designs/Blender/HelmetN.png',
-    },
-    {
-      title: 'Spider Bot',
-      description: 'Futuristic robotic spider design with intricate mechanical details.',
-      tools: ['Blender', 'Character Design'],
-      imageSrc: '/Graphic Designs/Blender/SpiderB.png',
+      imageSrc: '/src/assets/LB.jpg',
     },
   ];
 

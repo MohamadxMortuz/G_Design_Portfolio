@@ -45,7 +45,7 @@ export function Hero() {
           <div className="absolute inset-0 bg-gradient-to-br from-[#D4AF37]/20 to-transparent rounded-2xl blur-3xl"></div>
           <div className="relative aspect-square rounded-2xl overflow-hidden border border-[#D4AF37]/20 bg-gradient-to-br from-gray-900 to-black flex items-center justify-center p-12">
             <img
-              src="/Graphic Designs/WhiteM.png"
+              src="/src/assets/WhiteM.png"
               alt="Mohamad Mortuz Logo"
               className="w-full h-full object-contain"
             />

@@ -18,6 +18,7 @@ export function ProjectCard({ title, description, tools, imageSrc, onImageClick 
             src={imageSrc}
             alt={title}
             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
           />
         ) : (
           <div className="w-full h-full flex items-center justify-center">

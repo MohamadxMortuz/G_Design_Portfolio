@@ -49,6 +49,8 @@ export function Hero() {
               src={whiteLogo}
               alt="Mohamad Mortuz Logo"
               className="w-full h-full object-contain"
+              loading="eager"
+              fetchpriority="high"
             />
           </div>
         </div>

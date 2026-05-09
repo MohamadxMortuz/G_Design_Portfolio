@@ -3,25 +3,34 @@ name: CI - Build Validation
 on:
   push:
     branches:
-      -main:
+      - main
 
 jobs:
   build:
-  name: Install and Build
-  runs-on: ubuntu-latest
+    name: Install & Build
+    runs-on: ubuntu-latest
 
-  steps:
-    -name:checkout Repository
-    uses: actions/checkout@v2
+    steps:
+      # ── Step 1: Checkout the repository code ──────────────
+      # Pulls your latest code into the GitHub Actions runner
+      - name: Checkout Repository
+        uses: actions/checkout@v4
 
-    -name: setup Node.js
-    uses: actions/setup-node@v2
-    with:
-      node-version: '18'
-      cache: 'npm'
+      # ── Step 2: Setup Node.js v18 ─────────────────────────
+      # Installs Node.js and enables npm caching for faster runs
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
 
-      -name: Install Dependencies
-      run: npm install
+      # ── Step 3: Install dependencies ──────────────────────
+      # Installs all packages from package.json
+      - name: Install Dependencies
+        run: npm install
 
-      -name: Build Project
-      run: npm run build
+      # ── Step 4: Run production build ──────────────────────
+      # Runs `vite build` via npm run build
+      # If TypeScript errors or build failures exist, this step fails
+      - name: Build Project
+        run: npm run build
